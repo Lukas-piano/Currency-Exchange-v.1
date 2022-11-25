@@ -1,0 +1,77 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #aaa;
+    background-image: url(../images/money-two.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    text-align: center;
+    color: #ddd;
+}
+
+.form {
+    color: #ddd;
+    background-color: #111;
+    padding: 45px;
+    max-width: 500px;
+    margin: 20px auto;
+    opacity: 90%;
+    border: 30px solid hsl(183deg 42% 21%);
+    border-radius: 40px;
+}
+
+.result {
+    text-align: center;
+    letter-spacing: 2px;
+    color: hsl(0, 100%, 40%);
+}
+
+.amound {
+    width: 100%;
+    text-align: center;
+}
+
+.currency {
+    width: 100%;
+    text-align: center;
+}
+
+.infoBelow {
+    font-style: italic;
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.button__reset {
+    padding: 10px;
+}
+
+.button__submit {
+    padding: 10px;
+}
+
+.button__reset:hover {
+    background-color: hsl(0, 0%, 75%);
+}
+
+.button__submit:hover {
+    background-color: hsl(0, 0%, 75%);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+    <link href="css/style.css" rel="stylesheet">
+    </link>
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="body">
+    <form class="form js-form">
+        <h1 class="header">Kantor</h1>
+        <fieldset>
+            <label>
+                <h2>Twoja wpłata w PLN:</h2><input required type="number" min="1" placeholder="Wpisz kwotę" class="amound js-amount">
+            </label>
+            <label>
+                <h2>Wybrana waluta:</h2>
+                <select class="currency js-currency">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option>
+                </select>
+            </label>
+        </fieldset>
+        <div class="button">
+            <button class="button__submit js-submit">Oblicz</button>
+            <button type="reset" class="button__reset js-reset">Reset</button>
+        </div>
+        <h3 class="result"><strong>Wynik: </strong><strong class="js-result"></strong></h3>
+        <p class="infoBelow">Kursy walut NBP z dnia 22.11.2022</p>
+    </form>
+
+</body>
+
+</html>
