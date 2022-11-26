@@ -17,10 +17,9 @@ html {
 .form {
     color: #ddd;
     background-color: #111;
-    padding: 45px;
     max-width: 500px;
     margin: 20px auto;
-    opacity: 90%;
+    opacity: 95%;
     border: 30px solid hsl(183deg 42% 21%);
     border-radius: 40px;
 }
@@ -31,17 +30,25 @@ html {
 }
 
 .result {
+    font-size: 28px;
     text-align: center;
-    letter-spacing: 2px;
-    color: hsl(0, 100%, 40%);
+    letter-spacing: 1px;
+    color: #eee;
+    background-color: #111;
+    text-decoration: underline;
+    background-color: hsl(0, 100%, 10%);
+    padding: 10px;
+    border: 2px solid crimson;
 }
 
 .amound {
+    font-size: 26px;
     width: 100%;
     text-align: center;
 }
 
 .currency {
+    font-size: 26px;
     width: 100%;
     text-align: center;
 }
@@ -52,6 +59,7 @@ html {
 }
 
 .button {
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -61,10 +69,12 @@ html {
 }
 
 .button__reset {
+    font-size: 22px;
     padding: 10px;
 }
 
 .button__submit {
+    font-size: 22px;
     padding: 10px;
 }
 
