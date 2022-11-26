@@ -14,11 +14,6 @@ html {
     background-position: center;
 }
 
-.header {
-    text-align: center;
-    color: #ddd;
-}
-
 .form {
     color: #ddd;
     background-color: #111;
@@ -28,6 +23,11 @@ html {
     opacity: 90%;
     border: 30px solid hsl(183deg 42% 21%);
     border-radius: 40px;
+}
+
+.form__header {
+    text-align: center;
+    color: #ddd;
 }
 
 .result {
