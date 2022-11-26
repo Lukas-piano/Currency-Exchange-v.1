@@ -45,12 +45,14 @@ html {
     font-size: 26px;
     width: 100%;
     text-align: center;
+    padding: 10px;
 }
 
 .currency {
     font-size: 26px;
     width: 100%;
     text-align: center;
+    padding: 10px;
 }
 
 .infoBelow {
