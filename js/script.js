@@ -38,8 +38,6 @@
 
         let result = calculateResult(amount, currency);
 
-        console.log(result);
-
         updateResultText(amount, result, currency);
 
     }
